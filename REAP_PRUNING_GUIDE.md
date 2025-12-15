@@ -219,6 +219,8 @@ Available methods:
 
 #### 3.6 Super Expert / Outlier Preservation
 
+> **Note**: The parameter names use "perserve" (a misspelling of "preserve") to match the actual codebase implementation.
+
 **Super Experts Protection**:
 - `--perserve-super-experts` / `--singleton_super_experts true`
 - Prevents pruning of "super experts" (experts with consistently high activations)
@@ -257,7 +259,7 @@ For most use cases, prioritize tuning these parameters in order:
 2. **`--compression-ratio`**: Set target model size
 3. **`--dataset-name`**: Match calibration data to target domain
 4. **`--samples-per-category`**: Balance accuracy vs. efficiency
-5. **`--perserve-super-experts` / `--perserve-outliers`**: Enable if stability issues occur
+5. **`--perserve-super-experts` / `--perserve-outliers`**: Enable if stability issues occur (note: "perserve" spelling matches codebase)
 
 ### Secondary Parameters
 

@@ -219,6 +219,8 @@ REAP剪枝需要数据的原因如下：
 
 #### 3.6 超级专家/异常值保护
 
+> **注意**：参数名使用"perserve"（"preserve"的拼写错误）以匹配实际代码库实现。
+
 **超级专家保护**：
 - `--perserve-super-experts` / `--singleton_super_experts true`
 - 防止剪枝"超级专家"（具有持续高激活的专家）
@@ -257,7 +259,7 @@ REAP剪枝需要数据的原因如下：
 2. **`--compression-ratio`**：设置目标模型大小
 3. **`--dataset-name`**：使校准数据与目标领域匹配
 4. **`--samples-per-category`**：平衡精度与效率
-5. **`--perserve-super-experts` / `--perserve-outliers`**：如果出现稳定性问题则启用
+5. **`--perserve-super-experts` / `--perserve-outliers`**：如果出现稳定性问题则启用（注意："perserve"拼写匹配代码库）
 
 ### 次要参数
 
