@@ -1,5 +1,11 @@
 # Router-weighted Expert Activation Pruning (REAP)
 
+## 📚 Documentation
+
+**New!** Comprehensive guides for REAP pruning:
+- **[REAP Pruning Analysis Guide (English)](REAP_PRUNING_GUIDE.md)** - Complete analysis of data requirements, reproducibility, and key parameters
+- **[REAP剪枝分析指南 (中文)](REAP_PRUNING_GUIDE_CN.md)** - 数据需求、可复现性和关键参数的完整分析
+
 ## Summary
 <img src="./fig/reaper.png" align="right" alt="REAP the experts" width="400">
 This repository contains code required to reproduce the expert pruning and merging methods used in the paper: <a href="https://arxiv.org/abs/2510.13999">REAP the Experts: Why Pruning Prevails for One-Shot MoE compression</a>
